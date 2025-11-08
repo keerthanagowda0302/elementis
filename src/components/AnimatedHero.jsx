@@ -4,7 +4,6 @@ import { Volume2, ChevronDown } from 'lucide-react';
 import HeroVideo from '../assets/videos/13570972_3840_2160_30fps.mp4';
 
 export default function AnimatedHero() {
-  // CORRECT: Typed ref
   const videoRef = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
 
